@@ -39,6 +39,7 @@ class Owner
 
   def buy_cat
     Cat.all << Cat.new
+  end
 
 
 end
