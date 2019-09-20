@@ -31,6 +31,7 @@ class Owner
 
   def cats
     return Cats.all
+  end
 
 
 
