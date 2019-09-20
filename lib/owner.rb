@@ -30,7 +30,7 @@ class Owner
   end
 
   def cats
-    return self.Cats.all
+    return Cats.all
   end
 
 
