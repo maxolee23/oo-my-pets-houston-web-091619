@@ -33,5 +33,8 @@ class Owner
     Cat.all.select {|item| item.owner == self}
   end
 
+  def dogs
+    Dog.all.select {|item| item.owner == self}
+
 
 end
