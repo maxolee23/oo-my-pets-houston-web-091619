@@ -29,7 +29,7 @@ class Owner
     Owner.all.clear
   end
 
-  def cats 
+  def cats
     return Cats.all
 
 
