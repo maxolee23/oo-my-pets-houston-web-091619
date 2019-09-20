@@ -47,6 +47,13 @@ class Owner
     Dog.new(name, self)
   end
 
+  def walk_dogs
+    #  binding.pry
+      self.dogs.each do |dog|
+     dog.mood = "happy"
+   end
+ end
+
   def feed_cats
     @cats.each {|cat| cat.mood == "happy"}
   end
