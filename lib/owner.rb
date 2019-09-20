@@ -18,11 +18,11 @@ class Owner
     puts "I am a #{species}"
   end
 
-  def self.all 
+  def self.all
     @@all
   end
 
-  def self.count 
+  def self.count
     Owner.all.count
   end
 
