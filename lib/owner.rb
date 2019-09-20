@@ -58,8 +58,25 @@ class Owner
 #  binding.pry
   self.cats.each do |cat|
     cat.mood = "happy"
+    end
   end
-end
 
+  def sell_pets 
+    self.cats.each do |cat|
+      cats.mood = "nervous"
+
+      self.dogs.each do |dog|
+        dogs.mood = "nervous"
+
+        self.cats.each do |cat|
+          cats.owner = nil
+
+          self.dogs.each do |dog|
+            dogs.owner = nil
+          end
+        end
+      end
+    end
+  end
 
 end
