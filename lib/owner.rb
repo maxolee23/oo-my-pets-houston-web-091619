@@ -13,9 +13,8 @@ class Owner
     @species = species
   end
 
-  def say_species
-    @species = species
-    puts "I am a #{species}"
+  def say_species(species)
+    return "I am a "+ species + "."
   end
 
   def self.all
