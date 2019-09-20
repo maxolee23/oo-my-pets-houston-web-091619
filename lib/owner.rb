@@ -29,6 +29,9 @@ class Owner
     Owner.all.clear
   end
 
+  def cats 
+    return Cats.all
+
 
 
 end
